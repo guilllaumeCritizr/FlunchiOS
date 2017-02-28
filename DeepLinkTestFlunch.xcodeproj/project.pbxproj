@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0924BC9A1E5DE2DA007FFA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924BC991E5DE2DA007FFA5F /* AppDelegate.swift */; };
+		0924BC9C1E5DE2DA007FFA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924BC9B1E5DE2DA007FFA5F /* ViewController.swift */; };
+		0924BC9F1E5DE2DA007FFA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0924BC9D1E5DE2DA007FFA5F /* Main.storyboard */; };
+		0924BCA11E5DE2DA007FFA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0924BCA01E5DE2DA007FFA5F /* Assets.xcassets */; };
+		0924BCA41E5DE2DA007FFA5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0924BCA21E5DE2DA007FFA5F /* LaunchScreen.storyboard */; };
+		0924BCB21E5E0B3E007FFA5F /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924BCB11E5E0B3E007FFA5F /* FeedbackViewController.swift */; };
+		0924BCBA1E5F44F2007FFA5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0924BCB91E5F44F2007FFA5F /* GoogleService-Info.plist */; };
+		E2DBBC6F32D2A206203A28C5 /* Pods_DeepLinkTestFlunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D138DD0A1F790827910630 /* Pods_DeepLinkTestFlunch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0924BC961E5DE2DA007FFA5F /* DeepLinkTestFlunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLinkTestFlunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0924BC991E5DE2DA007FFA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0924BC9B1E5DE2DA007FFA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0924BC9E1E5DE2DA007FFA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0924BCA01E5DE2DA007FFA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0924BCA31E5DE2DA007FFA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0924BCA51E5DE2DA007FFA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0924BCAB1E5DE2E3007FFA5F /* DeepLinkTestFlunch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepLinkTestFlunch.entitlements; sourceTree = "<group>"; };
+		0924BCB01E5DFF74007FFA5F /* Critizr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Critizr-Bridging-Header.h"; sourceTree = "<group>"; };
+		0924BCB11E5E0B3E007FFA5F /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		0924BCB91E5F44F2007FFA5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F833D59446D3CE0D7E1B04A /* Pods-DeepLinkTestFlunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkTestFlunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLinkTestFlunch/Pods-DeepLinkTestFlunch.debug.xcconfig"; sourceTree = "<group>"; };
+		8968A06FF08BABB2F8441D63 /* Pods-DeepLinkTestFlunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLinkTestFlunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLinkTestFlunch/Pods-DeepLinkTestFlunch.release.xcconfig"; sourceTree = "<group>"; };
+		B8D138DD0A1F790827910630 /* Pods_DeepLinkTestFlunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLinkTestFlunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0924BC931E5DE2DA007FFA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DBBC6F32D2A206203A28C5 /* Pods_DeepLinkTestFlunch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0924BC8D1E5DE2DA007FFA5F = {
+			isa = PBXGroup;
+			children = (
+				0924BC981E5DE2DA007FFA5F /* DeepLinkTestFlunch */,
+				0924BC971E5DE2DA007FFA5F /* Products */,
+				6BF26CFE26991A4C45C62841 /* Pods */,
+				394E68A48B4CB3E45EFE118E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0924BC971E5DE2DA007FFA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0924BC961E5DE2DA007FFA5F /* DeepLinkTestFlunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0924BC981E5DE2DA007FFA5F /* DeepLinkTestFlunch */ = {
+			isa = PBXGroup;
+			children = (
+				0924BCAB1E5DE2E3007FFA5F /* DeepLinkTestFlunch.entitlements */,
+				0924BC991E5DE2DA007FFA5F /* AppDelegate.swift */,
+				0924BC9B1E5DE2DA007FFA5F /* ViewController.swift */,
+				0924BC9D1E5DE2DA007FFA5F /* Main.storyboard */,
+				0924BCA01E5DE2DA007FFA5F /* Assets.xcassets */,
+				0924BCA21E5DE2DA007FFA5F /* LaunchScreen.storyboard */,
+				0924BCB91E5F44F2007FFA5F /* GoogleService-Info.plist */,
+				0924BCA51E5DE2DA007FFA5F /* Info.plist */,
+				0924BCB01E5DFF74007FFA5F /* Critizr-Bridging-Header.h */,
+				0924BCB11E5E0B3E007FFA5F /* FeedbackViewController.swift */,
+			);
+			path = DeepLinkTestFlunch;
+			sourceTree = "<group>";
+		};
+		394E68A48B4CB3E45EFE118E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8D138DD0A1F790827910630 /* Pods_DeepLinkTestFlunch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF26CFE26991A4C45C62841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F833D59446D3CE0D7E1B04A /* Pods-DeepLinkTestFlunch.debug.xcconfig */,
+				8968A06FF08BABB2F8441D63 /* Pods-DeepLinkTestFlunch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0924BC951E5DE2DA007FFA5F /* DeepLinkTestFlunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0924BCA81E5DE2DA007FFA5F /* Build configuration list for PBXNativeTarget "DeepLinkTestFlunch" */;
+			buildPhases = (
+				0590D402D46FA32920682D0D /* [CP] Check Pods Manifest.lock */,
+				0924BC921E5DE2DA007FFA5F /* Sources */,
+				0924BC931E5DE2DA007FFA5F /* Frameworks */,
+				0924BC941E5DE2DA007FFA5F /* Resources */,
+				ABF93A016F42C52B2AD362AC /* [CP] Embed Pods Frameworks */,
+				D3E22D7F6FD25E5D2D2CC8E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLinkTestFlunch;
+			productName = DeepLinkTestFlunch;
+			productReference = 0924BC961E5DE2DA007FFA5F /* DeepLinkTestFlunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0924BC8E1E5DE2DA007FFA5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Guillaume Boufflers";
+				TargetAttributes = {
+					0924BC951E5DE2DA007FFA5F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RVYNC7UMEC;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0924BC911E5DE2DA007FFA5F /* Build configuration list for PBXProject "DeepLinkTestFlunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0924BC8D1E5DE2DA007FFA5F;
+			productRefGroup = 0924BC971E5DE2DA007FFA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0924BC951E5DE2DA007FFA5F /* DeepLinkTestFlunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0924BC941E5DE2DA007FFA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0924BCA41E5DE2DA007FFA5F /* LaunchScreen.storyboard in Resources */,
+				0924BCBA1E5F44F2007FFA5F /* GoogleService-Info.plist in Resources */,
+				0924BCA11E5DE2DA007FFA5F /* Assets.xcassets in Resources */,
+				0924BC9F1E5DE2DA007FFA5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0590D402D46FA32920682D0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF93A016F42C52B2AD362AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepLinkTestFlunch/Pods-DeepLinkTestFlunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E22D7F6FD25E5D2D2CC8E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepLinkTestFlunch/Pods-DeepLinkTestFlunch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0924BC921E5DE2DA007FFA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0924BC9C1E5DE2DA007FFA5F /* ViewController.swift in Sources */,
+				0924BCB21E5E0B3E007FFA5F /* FeedbackViewController.swift in Sources */,
+				0924BC9A1E5DE2DA007FFA5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0924BC9D1E5DE2DA007FFA5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0924BC9E1E5DE2DA007FFA5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0924BCA21E5DE2DA007FFA5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0924BCA31E5DE2DA007FFA5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0924BCA61E5DE2DA007FFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0924BCA71E5DE2DA007FFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0924BCA91E5DE2DA007FFA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F833D59446D3CE0D7E1B04A /* Pods-DeepLinkTestFlunch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeepLinkTestFlunch/DeepLinkTestFlunch.entitlements;
+				DEVELOPMENT_TEAM = RVYNC7UMEC;
+				INFOPLIST_FILE = DeepLinkTestFlunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.critizr.test.DeepLinkTestFlunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/guillaumeboufflers/Projects/Trash/Flunch/DeepLinkTestFlunch/Critizr-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0924BCAA1E5DE2DA007FFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8968A06FF08BABB2F8441D63 /* Pods-DeepLinkTestFlunch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeepLinkTestFlunch/DeepLinkTestFlunch.entitlements;
+				DEVELOPMENT_TEAM = RVYNC7UMEC;
+				INFOPLIST_FILE = DeepLinkTestFlunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.critizr.test.DeepLinkTestFlunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/guillaumeboufflers/Projects/Trash/Flunch/DeepLinkTestFlunch/Critizr-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0924BC911E5DE2DA007FFA5F /* Build configuration list for PBXProject "DeepLinkTestFlunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0924BCA61E5DE2DA007FFA5F /* Debug */,
+				0924BCA71E5DE2DA007FFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0924BCA81E5DE2DA007FFA5F /* Build configuration list for PBXNativeTarget "DeepLinkTestFlunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0924BCA91E5DE2DA007FFA5F /* Debug */,
+				0924BCAA1E5DE2DA007FFA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0924BC8E1E5DE2DA007FFA5F /* Project object */;
+}
